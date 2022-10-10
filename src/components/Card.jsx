@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 // export function Test() {
 //   return (
 //     <>
@@ -18,7 +16,6 @@ import React from 'react'
 export default function Card({ item }) {
   return (
     <>
-
       <div className="card w-96 bg-base-100 shadow-xl my-3">
         <figure>
           <img src={item.img} alt="Shoes" />
@@ -27,7 +24,9 @@ export default function Card({ item }) {
           <h2 className="card-title">{item.title}</h2>
           <p>{item.description}</p>
           <div className="card-actions justify-end">
-            <a className="badge" href={item.link} target='_blank'>Learn More</a>
+            <a href={item.link} target="_blank" className="badge">
+              Learn More
+            </a>
           </div>
         </div>
       </div>
