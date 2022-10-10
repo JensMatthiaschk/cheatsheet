@@ -11,7 +11,7 @@ export const htmlData = [
         title: 'Blank Page',
         description: 'The sample for an empty HTML Page',
         link: 'https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/getting-started/index.html',
-        img: 'https://prnt.sc/Esgpc8Aj82tJ'
+        img: 'https://shots.codepen.io/johnsons531/pen/AYGmLZ-800.jpg?version=1366399209'
     },
     {
         id: 3,

@@ -14,7 +14,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HTMLPage />} />
         <Route path="/html" element={<HTMLPage />} />
         <Route path="/css" element={<CSSPage />} />
         <Route path="/javascript" element={<JavascriptPage />} />
